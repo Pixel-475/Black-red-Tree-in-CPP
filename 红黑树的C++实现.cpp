@@ -31,8 +31,6 @@ class BRTree
 
 		BRTNode(type value,Color color=Color::red):_data(value),_color(color),_dad(nullptr),_lson(nullptr),_rson(nullptr){}//初始化列表
 	};
-
-
 };
 
 int main()
